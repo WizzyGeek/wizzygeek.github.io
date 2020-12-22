@@ -128,7 +128,7 @@ a {
 
 a:hover {
     font-weight: 600;
-    font-size: 1.75vw;
+    /* font-size: 1.75vw; */
     transition: ease-in 0.3s;
 }
 
@@ -154,5 +154,27 @@ h0 {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
+
+/* This looks horrible! */
+/* ::-webkit-scrollbar {
+    width: 2vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff00;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(53, 53, 53);
+    border-radius: 50%;
+    transition: ease 0.1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(26, 26, 26);
+    transition: ease 0.1;
+} */
+
 /* // 980
 // 640 */
