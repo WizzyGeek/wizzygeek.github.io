@@ -23,30 +23,8 @@ Hope that helps?
         </title>
         <link href="assets/w.png" rel="icon" />
         <link href="style/main.css" rel="stylesheet" />
-        <script type="text/javascript">
-
-            function getWidth(){
-                var width = document.body.clientWidth;
-                if (width > 980) {
-                    return 1.0;
-                } else if (width > 640) {
-                    return 1.2;
-                } else if (width > 520) {
-                    return 1.5;
-                } else if (width > 420){
-                    return 1.65;
-                } else {
-                    return 1.8;
-                };
-            };
-
-            function OnResizeHandler() {
-                viewport = document.querySelector("meta[name=viewport]");
-                viewport.setAttribute('content', `width=device-width, initial-scale=${getWidth(document.body.clientWidth)}, user-scalable=0`);
-            };
-        </script>
     </head>
-    <body onresize="OnResizeHandler()">
+    <body>
         <!-- <img src="assets/bg.jpg" id="bg" alt=""> -->
         <div class="overlay"></div>
         <h0 class="gradient-text">Wiz!</h0>
@@ -85,10 +63,6 @@ Hope that helps?
                 </div>
             </div>
         </div>
-        <script type="text/javascript">
-            // Resize on load
-            OnResizeHandler();
-        </script>
         <script async type="text/javascript" src="scripts/vanilla-tilt.js"></script>
     </body>
 </html>
