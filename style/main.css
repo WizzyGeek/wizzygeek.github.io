@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0em;
+    color: rgb(12, 22, 8);
+    min-height: 100%;
+    font-family: 'Montserrat';
+    font-size: 1.8vw;
+}
+
+.glass {
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba(52, 61, 66, 0.541);
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 1vw;
+    border: solid 2px rgba(255, 255, 255, 0.158);
+    padding: 1.6vw;
+}
+
+.grad {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 25%;
+    background-image: -webkit-linear-gradient(150deg, #006eff 0%, #1fcbff 100%, #1fff75 100%);
+    background-image: linear-gradient(150deg, #2600ce 0%, #14bbd1 100%, #1dd378 100%);/*linear-gradient(150deg, #006eff 0%, #d21fff 100%, #d21fff 100%);*/
+}
+
+/* @media screen and  */
+
+
+.sidebar {
+    color: #aaa;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.row {
+    padding: 3%;
+}
+
+.row::after{
+    content: '';
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    margin-bottom: 2vh;
+    width: 100%;
+    position: relative;
+}
+/*
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -100;
+} */
+
+.overlay {
+    background: #334d50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(-45deg, #cbcaa5, #334d50);
+    background: linear-gradient(-45deg, #cbcaa5, #334d50);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -98;
+    transition: ease-in 0.75s;
+}
+
+/* .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.479);
+    transition: ease-in 0.75s;
+} */
+
+h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    padding: 0;
+    margin: 0;
+    height: 0.5vw;
+    width: 8vw;
+    display: inline-block;
+    background-color: rgba(184, 23, 2, 0.822);
+}
+
+.text {
+    font-weight: 600;
+    font-size: 1.4vw;
+}
+
+code {
+    background-color: rgba(52, 61, 66, 0.541);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    color: #0026ff;
+    font-size: 1.55vw;
+    transition: ease-in 0.3s;
+}
+
+a:hover {
+    font-weight: 600;
+    font-size: 1.75vw;
+    transition: ease-in 0.3s;
+}
+
+h0 {
+    transform: rotate(-28deg);
+    font-weight: 700;
+    font-size: 9em;
+    position: fixed;
+    right: 5vw;
+    top: 5vw;
+}
+
+.gradient-text {
+    background-color: #272727d2;
+    background-image: linear-gradient(90deg, #000000 0%, #04619f 74%);
+    background-size: 100%;
+    background-clip: text;
+    opacity: 0.5;
+    /* text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+/* // 980
+// 640 */
