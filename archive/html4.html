@@ -1,0 +1,276 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <title>HTML 4</title>
+    </head>
+    <!-- background, bgcolor, text, link, alink, vlink -->
+    <body>
+        <i>Yes, this document gives <q>old vibes</q> but it was written on 9/9/2021</i><br>
+        <i>I would reccomend you to open this website's code to look at how the tags are used since this website complies with HTML4 standards</i>
+        <h1>HTML 4</h1>
+        <!-- width height direction scrolldelay scrollvalue behavior=[scrolling|sliding|alternate] loop bgcolor vspace hspace -->
+        <marquee> <<< Default marquee in your web-browser.</marquee>
+        <marquee direction="right">right >>></marquee>
+        <marquee direction="down">down 😩</marquee>
+        <marquee direction="up">uppp. 👆</marquee>
+        <marquee width="50%"> 50% width </marquee>
+
+        <p>
+            These are marquee tags. They are not a part of the html standard.
+            Marquee tags animate text which attracts attention of the user, usually used for short
+            and important announcements.<br>
+            attributes are width, height, direction, scrolldelay, scrollvalue, behavior=[scrolling|sliding|alternate], loop, bgcolor, vspace, hspace
+        </p>
+
+        <p>
+            p tag better known as paragraph tag is used for grouping text into an html element. the only notable attribute is align.
+        </p>
+        <!-- width -->
+        <pre>
+            This pre tag also preserves the absolute indentation level of the text
+            Well, the text is formatted eh.
+                well then this is indented
+                    This
+                        and This
+
+            Only notable attribute is width.
+        </pre>
+        <h2>Lists</h2>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea
+            <ol>
+                <li>Black</li>
+                <li>green</li>
+            </ol>
+            <dl>
+                <li>Term</li>
+                <dd>Defination</dd>
+
+                <dt>Def Term</dt>
+                <dd>Defination</dd>
+
+                <dt><li>Term Listed</li></dt>
+                <dd>This is a def term which contains an ul listed item</dd>
+                <li><dt>Listed Term</dt></li>
+                <dd>This is an ul listed item which contains a def term</dd>
+            </dl>
+            </li>
+        </ul>
+        <h2>Fonts <img height="25" width="25" src="https://c.tenor.com/_pj7e4VKqDoAAAAC/elmo-burning.gif"></img></h2>
+        <p>
+            Fonts in html4 are kinda eh....<br>
+            so we have got <b>bold</b>, <i>italics</i> and <u>underline</u><br>
+            <br>
+            but wait there's more<br>
+            we have <big>BIG</big> and <small>small</small><br>
+            <br>
+            but wait there's more<br>
+            we have x<sup>superscript</sup> and P<sub>subscrip</sub> <s>a tag for all your domination and sub kinks</s> <br>
+            <br>
+            but wait there's more. <br>
+            <q>Q tag has inline quotes and has one attribute called cite</q><br>
+            <br>
+            but wait there's more. <br>
+            <q>
+                this
+                <s>
+                    is
+                    <b>not
+                        <i>a
+                            <u>good idea but
+                                <small>
+                                    <sup>UwU you can...You can nest them</sup>
+                                    <sub>You can nest them</sub>
+                                </small>
+                                OwO you can...
+                                <big>
+                                    <sup>You can nest them</sup>
+                                    <sub>You can nest them</sub>
+                                </big>
+                            </u>
+                        </i>
+                    </b>
+                </s>
+            </q>
+            <br><br>
+            but wait there's more. <br>
+            <font face="monospace" color="crimson" size="5px">
+                font tag. 3 attributes. size, color, face. best thing?
+                <font color="green">
+                    u can nest this
+                    <sub><small>with other tags as well ofc</small></sub>
+                </font>
+            </font>
+        </p>
+
+        <h1>Tables</h1>
+
+        <p>
+            Every student<sub><small>who's being forced to learn html4</small></sub>'s worst nightmare.<br>
+            HTML tables are easy to use and make quickly. The problem arises when you are being tested on them.<br>
+
+            I will attempt my best to make them easy to understand. I will be using basic html tables but there isn't much
+            difference in moving the <code>tr</code> tags into a <code>tbody</code> tag.
+            <table border="1" cellspacing="0" frame="vsides" frame="below" cellpadding="10">
+                <caption><big>Table's children elements and their attributes</big></caption>
+                <tr>
+                    <th>Tag</th>
+                    <th>Use</th>
+                    <th>Attributes</th>
+                </tr>
+                <tr>
+                    <td>&lt;table></td>
+                    <td>Makes a table. The table container tag needs other tags to defines it's structure</td>
+                    <td>
+                        <ol>
+                            <li>summary</li>
+                            <dd><i>Not important for academics</i></dd>
+                            <li>width</li>
+                            <li>align</li>
+                            <li>border</li>
+                            <dd>
+                                <small><i>two other attributes named frame and rules are used with border attribute but they are not academically important</i></small>
+                            </dd>
+                            <li>cellspacing</li>
+                            <dd><small><i>important!</i></small><br>Specifies the space between cells</dd>
+                            <li>cellpadding</li>
+                            <dd><small><i>important!</i></small><br>Specifies the space between the cell borders and their contents</dd>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;tr></td>
+                    <td>Makes a table row</td>
+                    <td>
+                        <ol>
+                            <li>bgcolor</li>
+                            <li>align, valign</li>
+                                <dd>These attributes are not academically important. Also present in td & th tags</dd>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;th> & &lt;td></td>
+                    <td>
+                        Make a table cell. th tag makes a table header cell, while td makes a table data cell.
+                        Other than the strong effect on the text in th tag and how non-visual readers treat the tags,
+                        there is virtually no difference <sub>for academic purposes.</sub>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>rowspan</li>
+                            <li>colspan</li>
+                            <li>width</li>
+                            <li>height</li>
+                            <li>bgcolor</li>
+
+                            <dd>
+                                width and height are not academically important.<br>
+                                I have left out lot of attributes but you can search for them on <a href="https://google.com">google</a>
+                            </dd>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;caption></td>
+                    <td>Adds a caption to the table</td>
+                    <td>
+                        <ol>
+                            <li>align</li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+
+            <h2>Rowspan</h2>
+
+            Here is an example table using rowspan.
+
+            <table border="1" cellspacing="0" frame="vsides" frame="below" cellpadding="10">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Ajay</td>
+                    <!-- This cell will take up space on
+                        two rows -->
+                    <td rowspan="2">24</td>
+                </tr>
+                <tr>
+                    <td>Priya</td>
+                </tr>
+            </table>
+
+            As you can see, setting the colspan makes that cell merge to columns. while this seems intuitive enough to be remembered at the first glance
+            you may get confused with colspan when asked about it's function. It's best to create a strong assocition of vertical merging and the word rowspan
+            if English isn't your mother tongue.<br>
+
+            <b>Do not add excessive td tags in rows which are being spanned by the rows above</b>
+            The number of td tags a row should contain are table's rows - rows spanned by rows above
+
+            <table border="1" cellspacing="0" frame="vsides" frame="below" cellpadding="10">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Ajay</td>
+                    <!-- This cell will take up space on
+                        two rows -->
+                    <td rowspan="2">24</td>
+                </tr>
+                <tr>
+                    <td>Priya</td>
+                    <td>Adding a second td tag in the spanned row is gonna break the table</td>
+                </tr>
+            </table>
+        </p>
+
+        <h2>Colspan</h2>
+
+        As the name suggests this attribute makes the cell merge the specified amount of columns.
+
+        <table border="1" cellspacing="0" frame="vsides" frame="below" cellpadding="10">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Warranty</th>
+            </tr>
+            <tr>
+                <td>Sony</td>
+                <td>500</td>
+                <td>1 years</td>
+            </tr>
+            <tr>
+                <td>Nokia</td>
+                <td colspan="2">Discontinued</td>
+            </tr>
+        </table>
+
+        <h2>Rowspan and Colspan</h2>
+        We can use rowspan and colspan on the same cell to merge/span multiple cells
+
+        <table border="1" cellspacing="0" frame="vsides" frame="below" cellpadding="10">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Warranty</th>
+            </tr>
+            <tr>
+                <td>Sony</td>
+                <td colspan="2" rowspan="2">Discontinued</td>
+            </tr>
+            <tr>
+                <td>Nokia</td>
+            </tr>
+        </table>
+
+        <h1>Conclusion</h1>
+        HTML4 was an easy to learn language but it lacked power to make complex and visually appealing websites since the attributes repeat
+        making the code size large and hard to maintain, which is why technologies like css were needed. Not to mention HTML is a static language
+        hence to make dynamic apps js (EMCAScript) was introduced.
+    </body>
+</html>
